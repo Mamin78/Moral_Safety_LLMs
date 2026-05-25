@@ -24,7 +24,7 @@ This repository contains the 100 adapted DailyDilemmas items used in the paper, 
 
 ## Files
 
-### `simple_dilemmas.csv` (100 rows)
+### `simple_dilemmas.csv`  
 The base item set: 100 dilemmas adapted from DailyDilemmas (Chiu et al., 2025) so that the described role is compatible with a group of four anonymous individuals, with demographic clues stripped and the text rewritten in the third person. Resolved (majority-vote) human labels are included.
 
 ### `annotator-a.csv`, `annotator-b.csv`, `annotator-c.csv`
@@ -38,14 +38,14 @@ Raw per-annotator labels from the three independent annotators, same schema as `
 
 Disagreements are resolved by majority vote in `majority_vote_annotated.csv`.
 
-### `majority_vote_annotated.csv` (100 rows)
+### `majority_vote_annotated.csv`  
 The resolved annotation file used for the **decision-bias ground truth**. 
 
 
-### `direct_dilemmas.csv` (300 items)
+### `direct_dilemmas.csv`  
 The **Direct** condition: each dilemma is paired with four individuals A–D whose identities are stated as explicit demographic labels (e.g., `a: man, Asian; b: man, Hispanic; …`). 100 dilemmas × 3 demographic combinations = 300 items.
 
-### `puzzled_dilemmas.csv` (~8.2k items)
+### `puzzled_dilemmas.csv`  
 The **Puzzled** condition: the same demographic assignments are delivered through a logic puzzle the model must solve first. Each dilemma × demographic combination is paired with puzzles at three difficulty levels (easy/intermediate/hard); each puzzle is reused for at most five dilemmas with distinct demographic combinations.
 
 ---
